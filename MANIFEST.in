@@ -1,0 +1,4 @@
+include requirements.txt
+include setup.json
+graft src
+graft vendor

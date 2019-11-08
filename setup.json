@@ -13,7 +13,6 @@
     "Programming Language :: Python :: 3"
   ],
   "entry_points": {},
-  "install_requires": [],
   "extras_require": {
     "dev": [],
     "test": []
@@ -21,6 +20,7 @@
   "package_data": {
     "": []
   },
+  "package_dir": {"": "src"},
   "data_files": [],
   "scripts": []
 }

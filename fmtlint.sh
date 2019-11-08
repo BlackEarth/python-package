@@ -1,5 +1,5 @@
 #!/bin/bash
-PATHS="apps libs smh_app"
+PATHS="src test"
 isort -q -rc $PATHS
 black -q $PATHS
-flake8
+flake8 $PATHS

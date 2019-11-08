@@ -1,3 +1,4 @@
 [tool.black]
-skip-string-normalization=true
-include="/(apps|libs|smh_app)/.*py$"
+skip-string-normalization = true
+include = "/(src|test)/.*py$"
+line-length = 100
